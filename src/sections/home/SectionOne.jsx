@@ -14,7 +14,7 @@ const SectionOne = () => {
 /*  const apiUrl = getEnvUrl();
   const { data, loading, error } = useFetch(`${apiUrl}expenses/show`); */
 
-    const { data, loading, error } = useFetch( https://backend-expenses-tracker-app.onrender.com/expenses/show");
+    const { data, loading, error } = useFetch("https://backend-expenses-tracker-app.onrender.com/expenses/show");
 
   if (loading) {
     return <Loader /> 
