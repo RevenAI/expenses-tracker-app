@@ -9,10 +9,11 @@ import Loader from "../../utils/Loader";
 import Error from "../../utils/Error";
 
 const UsersPage = () => {
-    const apiUrl = getEnvUrl();
-    const { data: usersData, loading: isLoading, error } = useFetch(`${apiUrl}users/show`);
-        //testing
-console.log("Here is user the user data", usersData);
+  /*  const apiUrl = getEnvUrl();
+    const { data: usersData, loading: isLoading, error } = useFetch(`${apiUrl}users/show`); */
+
+    const { data: usersData, loading: isLoading, error } = useFetch("https://backend-expenses-tracker-app.onrender.com/users/show");
+    
     const [searchQuery, setSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1); 
     const itemsPerPage = 7;
