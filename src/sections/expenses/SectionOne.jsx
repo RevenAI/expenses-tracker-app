@@ -15,10 +15,13 @@ import { Link } from "react-router-dom";
 import CreateExpenseDialog from "./CreateExpenseDialog";
 
 const SectionOne = () => {
-    const apiUrl = getEnvUrl();
+   /* const apiUrl = getEnvUrl();
     const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch(`${apiUrl}expenses/show`);
-    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${apiUrl}users/show`);
+    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${apiUrl}users/show`); */
 
+    const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch("https://backend-expenses-tracker-app.onrender.com/expenses/show");
+    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch("https://backend-expenses-tracker-app.onrender.com/users/show");
+    
     const [searchQuery, setSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1); 
     const itemsPerPage = 5;
