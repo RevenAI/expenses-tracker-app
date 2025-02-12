@@ -7,7 +7,7 @@ import useFetch from "../../hooks/useFetch";
 
 const SectionThree = () => {
     const apiUrl = getEnvUrl();
-    const { data, loading, error } = useFetch(`${apiUrl}expenses/`);
+    const { data, loading, error } = useFetch(`${apiUrl}expenses/show`);
 
     if (loading) {
         return <Loader />;

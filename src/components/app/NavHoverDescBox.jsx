@@ -22,9 +22,9 @@ const NavHoverDescBox = ({icon, title, description}) => {
       flexDir="column"
       alignItems="center"
       justify="center"
-      backgroundColor="#00000033"
+      bgColor="blue.800"
       borderRadius="10px"
-      color="#fff" 
+      color="gold" 
       textAlign="center"
       zIndex="3000"
       >

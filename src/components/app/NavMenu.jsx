@@ -23,8 +23,8 @@ const NavMenu = ({navSize, icon, title, description, path}) => {
     w="100%"
     alignItems={navSize === "small" ? "center" : "flex-start"}
     position="relative" //This ensures hover detection
-    onMouseEnter={() => dispatch(setHoverState(title))} //This sets unique hover state
-    onMouseLeave={() => dispatch(setHoverState(null))} //this resets hover state
+    onMouseEnter={() => dispatch(setHoverState(title))} 
+    onMouseLeave={() => dispatch(setHoverState(null))} 
     >
         <MenuRoot>
             <Box 

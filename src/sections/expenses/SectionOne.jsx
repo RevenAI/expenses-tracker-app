@@ -16,9 +16,9 @@ import CreateExpenseDialog from "./CreateExpenseDialog";
 
 const SectionOne = () => {
     const apiUrl = getEnvUrl();
-    const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch(`${apiUrl}expenses/`);
-    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${apiUrl}users/`);
-        
+    const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch(`${apiUrl}expenses/show`);
+    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${apiUrl}users/show`);
+
     const [searchQuery, setSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1); 
     const itemsPerPage = 5;
@@ -57,7 +57,6 @@ const SectionOne = () => {
                     <IconButton aria-label="Filter" color="blue.800" bg="gold" _hover={{ bg: "blue.800", color: "gold" }} ><IoFilter /></IconButton>
                     <IconButton aria-label="More" color="blue.800" bg="gold" _hover={{ bg: "blue.800", color: "gold" }} ><MdMoreHoriz /></IconButton>
                  <Link to="/"><IconButton aria-label="Add new expense" color="blue.800" bg="gold" _hover={{ bg: "blue.800", color: "gold" }} p="4px">+ Add Expense</IconButton></Link>
-                 <CreateExpenseDialog />
                 </Flex>
             </Flex>
 
@@ -101,7 +100,8 @@ const SectionOne = () => {
                             <GridItem fontSize="sm" color="red.500">{expense.merchant}</GridItem>
                             <GridItem fontSize="sm" color="purple.600" fontWeight="bold">
                                 {(() => {
-                                    const owner = usersData.find((user) => user.id === expense.user_id);
+                                    const usersArray = usersData?.data || []; 
+                                    const owner = usersArray.find((user) => user.id === expense.user_id);
                                     return owner ? owner.name : "Unknown";
                                 })()}
                             </GridItem>

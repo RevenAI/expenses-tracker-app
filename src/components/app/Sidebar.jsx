@@ -1,6 +1,6 @@
 
 import { Flex, Text, defineStyle, Avatar, Heading, Box } from '@chakra-ui/react';
-import { FaHome, FaClipboardList, FaClipboardCheck, FaPlaneDeparture, FaSlidersH, FaPhoneAlt } from "react-icons/fa";
+import { FaHome, FaClipboardList, FaClipboardCheck, FaPlaneDeparture, FaSlidersH, FaPhoneAlt, FaUserAlt } from "react-icons/fa";
 import NavMenu from './NavMenu';
 import { useSelector } from 'react-redux';
 
@@ -24,7 +24,7 @@ const Sidebar = () => {
         flexDir="column"
         justifyContent="space-between"
         bg="gold"
-        zIndex="5000"
+        zIndex="4000"
     >
 
     <Flex
@@ -68,7 +68,7 @@ const Sidebar = () => {
           <Box as="div"> 
             <NavMenu navSize={navSize} icon={FaHome} title="Dashboard" path="/" description="View key insights and track your financial overview at a glance." active />
             <NavMenu navSize={navSize} icon={FaClipboardList} title="Expenses" path="/expenses" description="Manage and review all your recorded expenses in one place." />
-            <NavMenu navSize={navSize} icon={FaPlaneDeparture} title="Trips" path="/trips" description="Log and monitor travel expenses for better budgeting and reporting." />
+            <NavMenu navSize={navSize} icon={FaUserAlt} title="Users" path="/users" description="Register, update, delete and manage app users. This section is restricted to admin only." />
             <NavMenu navSize={navSize} icon={FaClipboardCheck} title="Approval" path="/approval" description="Approve or review pending expense reports and financial requests." />
             <NavMenu navSize={navSize} icon={FaSlidersH} title="Settings" path="/settings" description="Customize your preferences, notifications, and account settings." />
             <NavMenu navSize={navSize} icon={FaPhoneAlt} title="Support" path="/support" description="Get help, contact support, or access FAQs and documentation." />

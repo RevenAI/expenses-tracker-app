@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Flex, IconButton, Text } from "@chakra-ui/react";
-import { FaHome, FaClipboardList, FaClipboardCheck, FaPlaneDeparture, FaSlidersH, FaPhoneAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { FaHome, FaClipboardList, FaClipboardCheck, FaUserAlt, FaSlidersH, FaPhoneAlt, FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { NavLink } from "react-router-dom";
 
 const MobileFooter = () => {
     const menuProps = [
         { id: 1, title: "Home", icon: FaHome, path: "/" },
         { id: 2, title: "Expenses", icon: FaClipboardList, path: "/expenses" },
-        { id: 3, title: "Trips", icon: FaPlaneDeparture, path: "/trips" },
+        { id: 3, title: "Users", icon: FaUserAlt, path: "/users" },
         { id: 4, title: "Approval", icon: FaClipboardCheck, path: "/approval" },
         { id: 5, title: "Settings", icon: FaSlidersH, path: "/settings" },
         { id: 6, title: "Support", icon: FaPhoneAlt, path: "/support" },

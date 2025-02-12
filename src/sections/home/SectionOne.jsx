@@ -1,5 +1,6 @@
+import React from 'react';
 import { 
-    Stack, Card, Separator, DataList, Icon, Text, Grid, GridItem, 
+    Stack, Card, Separator, DataList, Icon, Text, Box, Grid, GridItem, 
     Flex
   } from "@chakra-ui/react";
 import { FaRegClock, FaCartArrowDown, FaMoneyBillWave, FaCheckCircle, FaTimesCircle, FaTag, FaArrowUp, FaArrowDown } from "react-icons/fa";
@@ -11,7 +12,7 @@ import Loader from "../../utils/Loader";
 
 const SectionOne = () => {
   const apiUrl = getEnvUrl();
-  const { data, loading, error } = useFetch(`${apiUrl}expenses/`);
+  const { data, loading, error } = useFetch(`${apiUrl}expenses/show`);
 
   if (loading) {
     return <Loader /> 
@@ -114,11 +115,13 @@ const SectionOne = () => {
 
                 {/* Second Card - Recent Expenses */}
               <Card.Root 
-                w="full"
+                w="100%"
                 boxShadow="lg" 
                 borderRadius="xl" 
                 p={{ base: 2, md: 4, lg: 6 }} 
+                pl={{lg: "6"}}
                 bg="gray.50"
+                overflowY="scroll"
                 >
                   <Card.Header>
                     <Card.Title fontSize="sm" fontWeight="bold">Recent Expenses</Card.Title>
@@ -136,16 +139,17 @@ const SectionOne = () => {
                         <GridItem fontWeight="bold" fontSize="sm" color="blue.800">Payment Method</GridItem>
                         <GridItem fontWeight="bold" fontSize="sm" color="blue.800">Date</GridItem>
                         {latestExpenses.map((expense) => (
-                          <>
-                            <GridItem key={`category-${expense.id}`} fontSize="xs" color="purple">{expense.category}</GridItem>
-                            <GridItem key={`description-${expense.id}`} fontSize="xs" color="red.500">{expense.description}</GridItem>
-                            <GridItem key={`amount-${expense.id}`} fontSize="xs" color="purple" fontWeight="bold">
+                                                  
+                          <React.Fragment key={expense.id}>
+                            <GridItem fontSize="xs" color="purple">{expense.category}</GridItem>
+                            <GridItem fontSize="xs" color="red.500">{`${expense.description.slice(0,17)}...`}</GridItem>
+                            <GridItem fontSize="xs" color="purple" fontWeight="bold">
                               {expense.amount}
                             </GridItem>
-                            <GridItem key={`currency-${expense.id}`} fontSize="xs" color="red.500">{expense.currency}</GridItem>
-                            <GridItem key={`payment-${expense.id}`} fontSize="xs" color="purple">{expense.payment_method}</GridItem>
-                            <GridItem key={`date-${expense.id}`} fontSize="xs" color="red.500">{expense.date}</GridItem>
-                          </>
+                            <GridItem fontSize="xs" color="red.500">{expense.currency}</GridItem>
+                            <GridItem fontSize="xs" color="purple">{expense.payment_method}</GridItem>
+                            <GridItem fontSize="xs" color="red.500">{expense.date}</GridItem>
+                          </React.Fragment>
                         ))}
                       </Grid>
                     )}

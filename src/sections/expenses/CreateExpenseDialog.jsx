@@ -31,7 +31,7 @@ const CreateExpenseDialog = () => {
   const apiUrl = getEnvUrl();
   const dispatch = useDispatch();
   const formData = useSelector((state) => state.createExpenses?.formData || {});
-  const { loading, error, refetch } = useFetch(`${apiUrl}expenses`, "POST", formData);
+  const { loading, error, refetch } = useFetch(`${apiUrl}expenses/create`, "POST", formData);
 
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;

@@ -52,8 +52,18 @@ const getExpenseStats = (data) => {
     };
 };
 
+const getInitials = (name) => {
+    if (!name) return "??"; 
+    const nameParts = name.split(" ");
+    return nameParts
+        .slice(0, 2) // Take first two words
+        .map((part) => part.charAt(0).toUpperCase()) // Get first letter and capitalize
+        .join(""); // Join initials
+};
+
 export { 
     getEnvUrl,
     getExpenseStats,
+    getInitials,
  };
 
