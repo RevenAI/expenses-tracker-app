@@ -1,9 +1,10 @@
 import axios from "axios";
-import {
+/*import {
     getEnvUrl
 } from "../src/utils/helpers";
 
-const API_URL = getEnvUrl();
+const API_URL = getEnvUrl();*/
+const API_URL = "https://backend-expenses-tracker-app.onrender.com/"
 const apiRequest = axios.create({
     baseURL: API_URL,
     headers: {
