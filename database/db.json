@@ -1,0 +1,2400 @@
+{
+  "expenses": [
+    {
+      "id": "1",
+      "user_id": 3,
+      "category": "Food & Groceries",
+      "amount": 15000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-01",
+      "description": "Groceries from Shoprite",
+      "payment_method": "Debit Card",
+      "location": "Shoprite, Ikeja City Mall, Lagos",
+      "merchant": "Shoprite Nigeria"
+    },
+    {
+      "id": "2",
+      "user_id": 7,
+      "category": "Transportation",
+      "amount": 5000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-02",
+      "description": "Uber ride to office",
+      "payment_method": "Cash",
+      "location": "Victoria Island, Lagos",
+      "merchant": "Uber Nigeria"
+    },
+    {
+      "id": "3",
+      "user_id": 5,
+      "category": "Entertainment",
+      "amount": 12000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "rejected",
+      "date": "2025-02-03",
+      "description": "Cinema ticket & popcorn",
+      "payment_method": "Credit Card",
+      "location": "Silverbird Cinemas, Abuja",
+      "merchant": "Silverbird Cinemas"
+    },
+    {
+      "id": "4",
+      "user_id": 2,
+      "category": "Rent",
+      "amount": 300000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-04",
+      "description": "House rent for February",
+      "payment_method": "Bank Transfer",
+      "location": "GTBank Online Payment",
+      "merchant": "Landlord - Mr. Johnson"
+    },
+    {
+      "id": "5",
+      "user_id": 9,
+      "category": "Health & Medical",
+      "amount": 25000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "rejected",
+      "date": "2025-02-05",
+      "description": "Pharmacy bill for medications",
+      "payment_method": "POS",
+      "location": "HealthPlus Pharmacy, Lekki",
+      "merchant": "HealthPlus Pharmacy"
+    },
+    {
+      "id": "6",
+      "user_id": 1,
+      "category": "Shopping",
+      "amount": 70000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-06",
+      "description": "Clothes and accessories",
+      "payment_method": "Bank Transfer",
+      "location": "Jumia Online Store",
+      "merchant": "Jumia Nigeria"
+    },
+    {
+      "id": "7",
+      "user_id": 4,
+      "category": "Utilities",
+      "amount": 18000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": true,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-07",
+      "description": "Electricity bill (Prepaid)",
+      "payment_method": "Mobile App",
+      "location": "Ikeja Electric Payment Portal",
+      "merchant": "Ikeja Electric"
+    },
+    {
+      "id": "8",
+      "user_id": 10,
+      "category": "Dining Out",
+      "amount": 12000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": true,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-08",
+      "description": "Dinner at a restaurant",
+      "payment_method": "POS",
+      "location": "The Place Restaurant, Surulere",
+      "merchant": "The Place Restaurant"
+    },
+    {
+      "id": "9",
+      "user_id": 3,
+      "category": "Food & Groceries",
+      "amount": 15000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-01",
+      "description": "Groceries from Shoprite",
+      "payment_method": "Debit Card",
+      "location": "Shoprite, Ikeja City Mall, Lagos",
+      "merchant": "Shoprite Nigeria"
+    },
+    {
+      "id": "10",
+      "user_id": 7,
+      "category": "Transportation",
+      "amount": 5000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-02",
+      "description": "Uber ride to office",
+      "payment_method": "Cash",
+      "location": "Victoria Island, Lagos",
+      "merchant": "Uber Nigeria"
+    },
+    {
+      "id": "11",
+      "user_id": 5,
+      "category": "Entertainment",
+      "amount": 12000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "rejected",
+      "date": "2025-02-03",
+      "description": "Cinema ticket & popcorn",
+      "payment_method": "Credit Card",
+      "location": "Silverbird Cinemas, Abuja",
+      "merchant": "Silverbird Cinemas"
+    },
+    {
+      "id": "12",
+      "user_id": 2,
+      "category": "Rent",
+      "amount": 300000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-04",
+      "description": "House rent for February",
+      "payment_method": "Bank Transfer",
+      "location": "GTBank Online Payment",
+      "merchant": "Landlord - Mr. Adewale"
+    },
+    {
+      "id": "13",
+      "user_id": 9,
+      "category": "Health & Medical",
+      "amount": 25000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "rejected",
+      "date": "2025-02-05",
+      "description": "Pharmacy bill for medications",
+      "payment_method": "POS",
+      "location": "HealthPlus Pharmacy, Lekki",
+      "merchant": "HealthPlus Pharmacy"
+    },
+    {
+      "id": "14",
+      "user_id": 1,
+      "category": "Shopping",
+      "amount": 70000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-06",
+      "description": "Clothes and accessories",
+      "payment_method": "Bank Transfer",
+      "location": "Jumia Online Store",
+      "merchant": "Jumia Nigeria"
+    },
+    {
+      "id": "15",
+      "user_id": 4,
+      "category": "Utilities",
+      "amount": 18000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": true,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-07",
+      "description": "Electricity bill (Prepaid)",
+      "payment_method": "Mobile App",
+      "location": "Ikeja Electric Payment Portal",
+      "merchant": "Ikeja Electric"
+    },
+    {
+      "id": "16",
+      "user_id": 10,
+      "category": "Dining Out",
+      "amount": 12000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": true,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-08",
+      "description": "Dinner at a restaurant",
+      "payment_method": "POS",
+      "location": "The Place Restaurant, Surulere",
+      "merchant": "The Place Restaurant"
+    },
+    {
+      "id": "17",
+      "user_id": 6,
+      "category": "Tech Gadgets",
+      "amount": 180000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-09",
+      "description": "New MacBook charger",
+      "payment_method": "Credit Card",
+      "location": "Slot Nigeria, Ikeja",
+      "merchant": "Slot Nigeria"
+    },
+    {
+      "id": "18",
+      "user_id": 8,
+      "category": "Fitness & Gym",
+      "amount": 25000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "pending",
+      "date": "2025-02-10",
+      "description": "Monthly gym membership",
+      "payment_method": "Bank Transfer",
+      "location": "Gold's Gym, Victoria Island",
+      "merchant": "Gold's Gym"
+    },
+    {
+      "id": "19",
+      "user_id": 5,
+      "category": "Home Cleaning",
+      "amount": 35000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-11",
+      "description": "Professional house cleaning",
+      "payment_method": "Cash",
+      "location": "Lekki Phase 1, Lagos",
+      "merchant": "Sparkle Cleaning Services"
+    },
+    {
+      "id": "20",
+      "user_id": 9,
+      "category": "Mobile Accessories",
+      "amount": 8000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-12",
+      "description": "Phone screen protector & charger",
+      "payment_method": "POS",
+      "location": "Computer Village, Ikeja",
+      "merchant": "Gadget World"
+    },
+    {
+      "id": "21",
+      "user_id": 7,
+      "category": "Legal Services",
+      "amount": 50000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-13",
+      "description": "Consultation fee for legal case",
+      "payment_method": "Bank Transfer",
+      "location": "Ikoyi, Lagos",
+      "merchant": "Ade & Partners Law Firm"
+    },
+    {
+      "id": "22",
+      "user_id": 2,
+      "category": "Gardening & Landscaping",
+      "amount": 25000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-14",
+      "description": "New flower pots and fertilizers",
+      "payment_method": "Cash",
+      "location": "Lekki, Lagos",
+      "merchant": "Green Thumb Landscaping"
+    },
+    {
+      "id": "23",
+      "user_id": 1,
+      "category": "Pet Care",
+      "amount": 20000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "pending",
+      "date": "2025-02-15",
+      "description": "Dog grooming & vaccines",
+      "payment_method": "Credit Card",
+      "location": "Pet World, Surulere",
+      "merchant": "Pet World"
+    },
+    {
+      "id": "24",
+      "user_id": 10,
+      "category": "Event Planning",
+      "amount": 150000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-16",
+      "description": "Birthday party decorations",
+      "payment_method": "Bank Transfer",
+      "location": "Lagos Island, Lagos",
+      "merchant": "Royal Events Planners"
+    },
+    {
+      "id": "25",
+      "user_id": 9,
+      "category": "Fuel",
+      "amount": 32000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-21",
+      "description": "Fuel purchase for company car",
+      "payment_method": "POS",
+      "location": "Total Filling Station, Maitama, Abuja",
+      "merchant": "Total Nigeria"
+    },
+    {
+      "id": "26",
+      "user_id": 10,
+      "category": "Gadgets & Electronics",
+      "amount": 250000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-22",
+      "description": "Purchase of new MacBook charger",
+      "payment_method": "Bank Transfer",
+      "location": "Slot Store, Ikeja, Lagos",
+      "merchant": "Slot Nigeria"
+    },
+    {
+      "id": "27",
+      "user_id": 11,
+      "category": "Internet & Subscriptions",
+      "amount": 20000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": true,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-23",
+      "description": "Monthly data plan subscription",
+      "payment_method": "USSD",
+      "location": "MTN Online Recharge",
+      "merchant": "MTN Nigeria"
+    },
+    {
+      "id": "28",
+      "user_id": 12,
+      "category": "Dining & Entertainment",
+      "amount": 45000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-24",
+      "description": "Dinner with business clients",
+      "payment_method": "Credit Card",
+      "location": "Sheraton Hotel, Lagos",
+      "merchant": "Sheraton Lagos"
+    },
+    {
+      "id": "29",
+      "user_id": 13,
+      "category": "Books & Training",
+      "amount": 120000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-25",
+      "description": "Professional finance training course",
+      "payment_method": "Bank Transfer",
+      "location": "Lagos Business School",
+      "merchant": "LBS Nigeria"
+    },
+    {
+      "id": "30",
+      "user_id": 14,
+      "category": "Work Equipment",
+      "amount": 95000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "pending",
+      "date": "2025-02-26",
+      "description": "Purchase of logistics tracking device",
+      "payment_method": "Debit Card",
+      "location": "Jumia Online Store",
+      "merchant": "Jumia Nigeria"
+    },
+    {
+      "id": "31",
+      "user_id": 15,
+      "category": "Marketing & Ads",
+      "amount": 175000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": true,
+      "status": "approved",
+      "date": "2025-02-27",
+      "description": "Google Ads campaign for new product launch",
+      "payment_method": "Credit Card",
+      "location": "Online Payment",
+      "merchant": "Google Ads"
+    },
+    {
+      "id": "32",
+      "user_id": 16,
+      "category": "Office Supplies",
+      "amount": 40000,
+      "currency": "NGN",
+      "subject": "Expense Sub",
+      "username": "Unknown",
+      "inAdvance": false,
+      "isReported": false,
+      "status": "approved",
+      "date": "2025-02-28",
+      "description": "Bulk purchase of printer ink and paper",
+      "payment_method": "Bank Transfer",
+      "location": "Office Depot, Lagos",
+      "merchant": "Office Depot Nigeria"
+    },
+    {
+      "id": "c841",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "2512",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": {
+        "value": [
+          "EUR"
+        ],
+        "items": [
+          {
+            "label": "EUR",
+            "value": "EUR"
+          }
+        ]
+      },
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d9cf",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "8897",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "0240",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": {
+        "value": [
+          "EUR"
+        ],
+        "items": [
+          {
+            "label": "EUR",
+            "value": "EUR"
+          }
+        ]
+      },
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "8d55",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "7fe1",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "cd7c",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": {
+        "value": [
+          "EUR"
+        ],
+        "items": [
+          {
+            "label": "EUR",
+            "value": "EUR"
+          }
+        ]
+      },
+      "category": {
+        "value": [
+          "Health & Medical"
+        ],
+        "items": [
+          {
+            "label": "Health & Medical",
+            "value": "Health & Medical"
+          }
+        ]
+      },
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d10d",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "b9da",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "1d76",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "1a6b",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "3c3f",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "6dbb",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "5d88",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "64b0",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "afe4",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d2d7",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "002c",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "feff",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d642",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "cde4",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "8ea6",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "e7f2",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "6ee6",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "2498",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "f366",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "c4d9",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "12f6",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "2619",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "4430",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "7fab",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "a87b",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "c6aa",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "a192",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "2139",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "1c8e",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "e5f1",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "2f6b",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "45c5",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "954c",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "c676",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d16c",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "8965",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "5891",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "11e3",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "1997",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "ac9f",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d974",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "227c",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d13b",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "f9e2",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "97e6",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "5b3b",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "311d",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "babb",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "713f",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "6905",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "5e6d",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "b8bd",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "33ca",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "4b55",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "8f88",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": {
+        "value": [
+          "Entertainment"
+        ],
+        "items": [
+          {
+            "label": "Entertainment",
+            "value": "Entertainment"
+          }
+        ]
+      },
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "48db",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "a52d",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "0bd2",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "e004",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": {
+        "value": [
+          "Entertainment"
+        ],
+        "items": [
+          {
+            "label": "Entertainment",
+            "value": "Entertainment"
+          }
+        ]
+      },
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "f104",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "6439",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "a75b",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "7780",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "85b0",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "f6d1",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "e587",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "0bf2",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "c9d6",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "f963",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "6fd4",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "7047",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "9459",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "befe",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "eb81",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "d244",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "a350",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "2a32",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "5242",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "65e2",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "cd44",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "ad33",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "bb67",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "57ee",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "b908",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    },
+    {
+      "id": "9ffe",
+      "subject": "",
+      "description": "",
+      "merchant": "",
+      "location": "",
+      "amount": "",
+      "date": "",
+      "currency": "NGN",
+      "category": "",
+      "payment_method": "Credit Card",
+      "additional_info": "",
+      "add_to_report": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "John Okafor",
+      "email": "john.okafor@example.com",
+      "phone": "+2348061234567",
+      "profile_picture": "https://example.com/profile_pictures/john.jpg",
+      "address": "12 Admiralty Way, Lekki, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 600000,
+      "company": {
+        "name": "Zenith Bank Plc",
+        "role": "Financial Analyst"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Aisha Bello",
+      "email": "aisha.bello@example.com",
+      "phone": "+2348092345678",
+      "profile_picture": "https://example.com/profile_pictures/aisha.jpg",
+      "address": "22 Gwarinpa Estate, Abuja",
+      "currency": "NGN",
+      "budgeting_goal": 800000,
+      "company": {
+        "name": "MTN Nigeria",
+        "role": "IT Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "3",
+      "name": "David Uche",
+      "email": "david.uche@example.com",
+      "phone": "+2348023456789",
+      "profile_picture": "https://example.com/profile_pictures/david.jpg",
+      "address": "30 Trans Amadi, Port Harcourt",
+      "currency": "NGN",
+      "budgeting_goal": 550000,
+      "company": {
+        "name": "Chevron Nigeria",
+        "role": "Petroleum Engineer"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Chinwe Obi",
+      "email": "chinwe.obi@example.com",
+      "phone": "+2347014567890",
+      "profile_picture": "https://example.com/profile_pictures/chinwe.jpg",
+      "address": "15 Old GRA, Enugu",
+      "currency": "NGN",
+      "budgeting_goal": 450000,
+      "company": {
+        "name": "Dangote Group",
+        "role": "Procurement Officer"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Ibrahim Sani",
+      "email": "ibrahim.sani@example.com",
+      "phone": "+2348055678901",
+      "profile_picture": "https://example.com/profile_pictures/ibrahim.jpg",
+      "address": "5 Ahmadu Bello Way, Kano",
+      "currency": "NGN",
+      "budgeting_goal": 700000,
+      "company": {
+        "name": "UBA Nigeria",
+        "role": "Branch Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Esther Eze",
+      "email": "esther.eze@example.com",
+      "phone": "+2347036789012",
+      "profile_picture": "https://example.com/profile_pictures/esther.jpg",
+      "address": "18 Lekki Phase 1, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 500000,
+      "company": {
+        "name": "Nigerian Breweries",
+        "role": "Sales Executive"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Kemi Ajayi",
+      "email": "kemi.ajayi@example.com",
+      "phone": "+2348078901234",
+      "profile_picture": "https://example.com/profile_pictures/kemi.jpg",
+      "address": "4 Allen Avenue, Ikeja, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 450000,
+      "company": {
+        "name": "Swift Technologies Ltd.",
+        "role": "Marketing Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "8",
+      "name": "Emeka Nwosu",
+      "email": "emeka.nwosu@example.com",
+      "phone": "+2348089012345",
+      "profile_picture": "https://example.com/profile_pictures/emeka.jpg",
+      "address": "10 Ikoyi Crescent, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 900000,
+      "company": {
+        "name": "Flutterwave",
+        "role": "Software Engineer"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Fatima Yusuf",
+      "email": "fatima.yusuf@example.com",
+      "phone": "+2348098765432",
+      "profile_picture": "https://example.com/profile_pictures/fatima.jpg",
+      "address": "45 Maitama Avenue, Abuja",
+      "currency": "NGN",
+      "budgeting_goal": 650000,
+      "company": {
+        "name": "Nigerian National Petroleum Corporation (NNPC)",
+        "role": "Operations Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "10",
+      "name": "Tunde Bakare",
+      "email": "tunde.bakare@example.com",
+      "phone": "+2348123456789",
+      "profile_picture": "https://example.com/profile_pictures/tunde.jpg",
+      "address": "32 Maryland Estate, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 750000,
+      "company": {
+        "name": "Andela Nigeria",
+        "role": "Senior Software Engineer"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Zainab Musa",
+      "email": "zainab.musa@example.com",
+      "phone": "+2347012345678",
+      "profile_picture": "https://example.com/profile_pictures/zainab.jpg",
+      "address": "17 Asokoro Road, Abuja",
+      "currency": "NGN",
+      "budgeting_goal": 500000,
+      "company": {
+        "name": "Paystack",
+        "role": "Customer Success Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "12",
+      "name": "Chuka Onwudiwe",
+      "email": "chuka.onwudiwe@example.com",
+      "phone": "+2348035671234",
+      "profile_picture": "https://example.com/profile_pictures/chuka.jpg",
+      "address": "56 GRA, Enugu",
+      "currency": "NGN",
+      "budgeting_goal": 680000,
+      "company": {
+        "name": "Interswitch Group",
+        "role": "Product Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "13",
+      "name": "Adamu Shehu",
+      "email": "adamu.shehu@example.com",
+      "phone": "+2348063456789",
+      "profile_picture": "https://example.com/profile_pictures/adamu.jpg",
+      "address": "21 Wuse Zone 4, Abuja",
+      "currency": "NGN",
+      "budgeting_goal": 720000,
+      "company": {
+        "name": "Sterling Bank",
+        "role": "Investment Advisor"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "14",
+      "name": "Ngozi Eke",
+      "email": "ngozi.eke@example.com",
+      "phone": "+2348145678901",
+      "profile_picture": "https://example.com/profile_pictures/ngozi.jpg",
+      "address": "89 Ajah Road, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 400000,
+      "company": {
+        "name": "Jumia Nigeria",
+        "role": "Logistics Coordinator"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "15",
+      "name": "Raphael Udo",
+      "email": "raphael.udo@example.com",
+      "phone": "+2348023456781",
+      "profile_picture": "https://example.com/profile_pictures/raphael.jpg",
+      "address": "3 Akpan Avenue, Uyo",
+      "currency": "NGN",
+      "budgeting_goal": 550000,
+      "company": {
+        "name": "Konga",
+        "role": "Digital Marketing Specialist"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "16",
+      "name": "Amaka Okonkwo",
+      "email": "amaka.okonkwo@example.com",
+      "phone": "+2348056789012",
+      "profile_picture": "https://example.com/profile_pictures/amaka.jpg",
+      "address": "22 Festac Town, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 620000,
+      "company": {
+        "name": "Nestlé Nigeria",
+        "role": "Supply Chain Manager"
+      },
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "17",
+      "name": "Fatima Yusuf",
+      "email": "fatima.yusuf@example.com",
+      "phone": "+2348065432198",
+      "profile_picture": "https://example.com/profile_pictures/fatima.jpg",
+      "address": "12 Garki Street, Abuja",
+      "currency": "NGN",
+      "budgeting_goal": 600000,
+      "company": "NNPC",
+      "role": "Operations Manager",
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "18",
+      "name": "Tunde Alabi",
+      "email": "tunde.alabi@example.com",
+      "phone": "+2348023345678",
+      "profile_picture": "https://example.com/profile_pictures/tunde.jpg",
+      "address": "25 Yaba Tech Road, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 450000,
+      "company": "Andela",
+      "role": "Software Engineer",
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "19",
+      "name": "Zainab Bello",
+      "email": "zainab.bello@example.com",
+      "phone": "+2348031234567",
+      "profile_picture": "https://example.com/profile_pictures/zainab.jpg",
+      "address": "17 Ikoyi Crescent, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 500000,
+      "company": "Paystack",
+      "role": "Customer Success Manager",
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "20",
+      "name": "Chuka Okonkwo",
+      "email": "chuka.okonkwo@example.com",
+      "phone": "+2348079987654",
+      "profile_picture": "https://example.com/profile_pictures/chuka.jpg",
+      "address": "30 Admiralty Way, Lekki, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 700000,
+      "company": "Interswitch",
+      "role": "Product Manager",
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "21",
+      "name": "Adamu Danjuma",
+      "email": "adamu.danjuma@example.com",
+      "phone": "+2348098765432",
+      "profile_picture": "https://example.com/profile_pictures/adamu.jpg",
+      "address": "3 Gwarimpa Estate, Abuja",
+      "currency": "NGN",
+      "budgeting_goal": 800000,
+      "company": "Sterling Bank",
+      "role": "Investment Advisor",
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": true
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "22",
+      "name": "Ngozi Nwachukwu",
+      "email": "ngozi.nwachukwu@example.com",
+      "phone": "+2348056789012",
+      "profile_picture": "https://example.com/profile_pictures/ngozi.jpg",
+      "address": "45 Ogba Road, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 550000,
+      "company": "Jumia",
+      "role": "Logistics Coordinator",
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    },
+    {
+      "id": "23",
+      "name": "Raphael Igbokwe",
+      "email": "raphael.igbokwe@example.com",
+      "phone": "+2348021234569",
+      "profile_picture": "https://example.com/profile_pictures/raphael.jpg",
+      "address": "88 Ikorodu Road, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 400000,
+      "company": "Konga",
+      "role": "Digital Marketing Specialist",
+      "preferences": {
+        "notifications": {
+          "email_notifications": true,
+          "push_notifications": false
+        },
+        "theme": "dark"
+      }
+    },
+    {
+      "id": "24",
+      "name": "Amaka Eze",
+      "email": "amaka.eze@example.com",
+      "phone": "+2348074567890",
+      "profile_picture": "https://example.com/profile_pictures/amaka.jpg",
+      "address": "7 Ajao Estate, Lagos",
+      "currency": "NGN",
+      "budgeting_goal": 650000,
+      "company": "Nestlé Nigeria",
+      "role": "Supply Chain Manager",
+      "preferences": {
+        "notifications": {
+          "email_notifications": false,
+          "push_notifications": true
+        },
+        "theme": "light"
+      }
+    }
+  ]
+}

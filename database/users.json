@@ -1,0 +1,345 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "name": "Emeka Okafor",
+        "email": "emeka.okafor@example.com",
+        "phone": "+2348012345678",
+        "profile_picture": "https://example.com/profile_pictures/emeka.jpg",
+        "address": "12 Adeola Odeku Street, Victoria Island, Lagos",
+        "currency": "NGN",
+        "budgeting_goal": 500000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 2,
+        "name": "Aisha Bello",
+        "email": "aisha.bello@example.com",
+        "phone": "+2348098765432",
+        "profile_picture": "https://example.com/profile_pictures/aisha.jpg",
+        "address": "22 Wuse Market Road, Abuja",
+        "currency": "NGN",
+        "budgeting_goal": 300000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": false
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 3,
+        "name": "Chinwe Nwosu",
+        "email": "chinwe.nwosu@example.com",
+        "phone": "+2348023456789",
+        "profile_picture": "https://example.com/profile_pictures/chinwe.jpg",
+        "address": "5 Ogui Road, Enugu",
+        "currency": "NGN",
+        "budgeting_goal": 400000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 4,
+        "name": "Tunde Adigun",
+        "email": "tunde.adigun@example.com",
+        "phone": "+2348034567890",
+        "profile_picture": "https://example.com/profile_pictures/tunde.jpg",
+        "address": "8 Ring Road, Ibadan, Oyo State",
+        "currency": "NGN",
+        "budgeting_goal": 250000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 5,
+        "name": "Fatima Yusuf",
+        "email": "fatima.yusuf@example.com",
+        "phone": "+2348056789012",
+        "profile_picture": "https://example.com/profile_pictures/fatima.jpg",
+        "address": "15 Ahmadu Bello Way, Kano",
+        "currency": "NGN",
+        "budgeting_goal": 600000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 6,
+        "name": "Obinna Eze",
+        "email": "obinna.eze@example.com",
+        "phone": "+2348067890123",
+        "profile_picture": "https://example.com/profile_pictures/obinna.jpg",
+        "address": "10 Trans Amadi Road, Port Harcourt",
+        "currency": "NGN",
+        "budgeting_goal": 350000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 7,
+        "name": "Kemi Ajayi",
+        "email": "kemi.ajayi@example.com",
+        "phone": "+2348078901234",
+        "profile_picture": "https://example.com/profile_pictures/kemi.jpg",
+        "address": "4 Allen Avenue, Ikeja, Lagos",
+        "currency": "NGN",
+        "budgeting_goal": 450000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": false
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 8,
+        "name": "Yakubu Ibrahim",
+        "email": "yakubu.ibrahim@example.com",
+        "phone": "+2348089012345",
+        "profile_picture": "https://example.com/profile_pictures/yakubu.jpg",
+        "address": "3 Sabo Market Road, Kaduna",
+        "currency": "NGN",
+        "budgeting_goal": 550000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 9,
+        "name": "Nkechi Okonkwo",
+        "email": "nkechi.okonkwo@example.com",
+        "phone": "+2348090123456",
+        "profile_picture": "https://example.com/profile_pictures/nkechi.jpg",
+        "address": "7 Aba Road, Onitsha",
+        "currency": "NGN",
+        "budgeting_goal": 320000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 10,
+        "name": "Segun Bankole",
+        "email": "segun.bankole@example.com",
+        "phone": "+2348101234567",
+        "profile_picture": "https://example.com/profile_pictures/segun.jpg",
+        "address": "6 Garki Street, Abuja",
+        "currency": "NGN",
+        "budgeting_goal": 700000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": false
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 11,
+        "name": "Uchechukwu Anozie",
+        "email": "uche.anozie@example.com",
+        "phone": "+2348112345678",
+        "profile_picture": "https://example.com/profile_pictures/uche.jpg",
+        "address": "14 Ojuelegba Road, Surulere, Lagos",
+        "currency": "NGN",
+        "budgeting_goal": 480000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": false
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 12,
+        "name": "Musa Danjuma",
+        "email": "musa.danjuma@example.com",
+        "phone": "+2348123456789",
+        "profile_picture": "https://example.com/profile_pictures/musa.jpg",
+        "address": "21 Zaria Road, Jos",
+        "currency": "NGN",
+        "budgeting_goal": 500000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 13,
+        "name": "Bolanle Adeyemi",
+        "email": "bolanle.adeyemi@example.com",
+        "phone": "+2348134567890",
+        "profile_picture": "https://example.com/profile_pictures/bolanle.jpg",
+        "address": "9 Bodija Estate, Ibadan",
+        "currency": "NGN",
+        "budgeting_goal": 620000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 14,
+        "name": "Ifeanyi Ubah",
+        "email": "ifeanyi.ubah@example.com",
+        "phone": "+2348145678901",
+        "profile_picture": "https://example.com/profile_pictures/ifeanyi.jpg",
+        "address": "17 Ekenwa Road, Benin City",
+        "currency": "NGN",
+        "budgeting_goal": 330000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": false
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 15,
+        "name": "Zainab Mohammed",
+        "email": "zainab.mohammed@example.com",
+        "phone": "+2348156789012",
+        "profile_picture": "https://example.com/profile_pictures/zainab.jpg",
+        "address": "3 Tudun Wada Street, Minna",
+        "currency": "NGN",
+        "budgeting_goal": 700000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 16,
+        "name": "Gbenga Alabi",
+        "email": "gbenga.alabi@example.com",
+        "phone": "+2348167890123",
+        "profile_picture": "https://example.com/profile_pictures/gbenga.jpg",
+        "address": "11 Adekunle Fajuyi Street, Ado-Ekiti",
+        "currency": "NGN",
+        "budgeting_goal": 280000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 17,
+        "name": "Esther Chukwuma",
+        "email": "esther.chukwuma@example.com",
+        "phone": "+2348178901234",
+        "profile_picture": "https://example.com/profile_pictures/esther.jpg",
+        "address": "20 Okpara Avenue, Umuahia",
+        "currency": "NGN",
+        "budgeting_goal": 550000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": false
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 18,
+        "name": "Sunday Eze",
+        "email": "sunday.eze@example.com",
+        "phone": "+2348189012345",
+        "profile_picture": "https://example.com/profile_pictures/sunday.jpg",
+        "address": "7 Agbani Road, Nsukka",
+        "currency": "NGN",
+        "budgeting_goal": 420000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": true
+          },
+          "theme": "light"
+        }
+      },
+      {
+        "id": 19,
+        "name": "Funke Adewale",
+        "email": "funke.adewale@example.com",
+        "phone": "+2348190123456",
+        "profile_picture": "https://example.com/profile_pictures/funke.jpg",
+        "address": "5 Opebi Road, Ikeja, Lagos",
+        "currency": "NGN",
+        "budgeting_goal": 380000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": true,
+            "push_notifications": true
+          },
+          "theme": "dark"
+        }
+      },
+      {
+        "id": 20,
+        "name": "Ibrahim Suleiman",
+        "email": "ibrahim.suleiman@example.com",
+        "phone": "+2348201234567",
+        "profile_picture": "https://example.com/profile_pictures/ibrahim.jpg",
+        "address": "18 Sokoto Road, Birnin Kebbi",
+        "currency": "NGN",
+        "budgeting_goal": 650000,
+        "preferences": {
+          "notifications": {
+            "email_notifications": false,
+            "push_notifications": false
+          },
+          "theme": "light"
+        }
+      }
+    ]
+  }
+  
