@@ -6,8 +6,11 @@ import BarChart from "./charts/BarChart";
 import useFetch from "../../hooks/useFetch";
 
 const SectionThree = () => {
-    const apiUrl = getEnvUrl();
-    const { data, loading, error } = useFetch(`${apiUrl}expenses/show`);
+   /* const apiUrl = getEnvUrl();
+    const { data, loading, error } = useFetch(`${apiUrl}expenses/show`); */
+
+   const { data, loading, error } = useFetch("https://backend-expenses-tracker-app.onrender.com/expenses/show");
+
 
     if (loading) {
         return <Loader />;
