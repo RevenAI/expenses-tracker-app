@@ -1,8 +1,12 @@
 
+const API_URI = import.meta.env.VITE_API_PROD_URL || import.meta.env.VITE_API_DEV_URL;
+        
+/* 
 const API_URI =
      import.meta.env.MODE === "production"
         ? import.meta.env.VITE_API_PROD_URL
         : import.meta.env.VITE_API_DEV_URL;
+*/
 
 
 const getExpenseStats = (data) => {
