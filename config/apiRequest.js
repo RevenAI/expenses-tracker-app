@@ -1,11 +1,10 @@
 import axios from "axios";
 import {
-    getEnvUrl
+    API_URI
 } from "../src/utils/helpers";
 
-const API_URL = getEnvUrl();
 const apiRequest = axios.create({
-    baseURL: API_URL,
+    baseURL: API_URI,
     headers: {
         "Content-Type": "application/json",
     },
@@ -14,6 +13,8 @@ const apiRequest = axios.create({
 export default apiRequest;
 
 
+// javascript/reactjs/feb-2025-pro/backend-expenses-app
+// javascript/reactjs/feb-2025-pro/expenses-tracker-app
 /* 
 starting the local backend server;
 npx json-server -p 3500 -w database/expenses.json

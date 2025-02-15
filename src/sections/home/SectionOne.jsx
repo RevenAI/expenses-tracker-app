@@ -7,12 +7,11 @@ import { FaRegClock, FaCartArrowDown, FaMoneyBillWave, FaCheckCircle, FaTimesCir
 import { MdReportOff } from "react-icons/md";
 import { TbCurrencyNaira } from "react-icons/tb";
 import useFetch from "../../hooks/useFetch";
-import { getEnvUrl, getExpenseStats } from "../../utils/helpers";
+import { API_URI, getExpenseStats } from "../../utils/helpers";
 import Loader from "../../utils/Loader";
 
 const SectionOne = () => {
-  const apiUrl = getEnvUrl();
-  const { data, loading, error } = useFetch(`${apiUrl}expenses/show`);
+  const { data, loading, error } = useFetch(`${API_URI}expenses/show`);
 
   if (loading) {
     return <Loader /> 

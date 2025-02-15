@@ -9,7 +9,7 @@ import Loader from "./utils/Loader";
 
 const Home = lazy(() => import("./pages/Home"));
 const Expenses = lazy(() => import("./pages/Expenses"));
-const Users = lazy(() => import("./pages/Users"));
+const UsersPage = lazy(() => import("./pages/UsersPage"));
 const Approval = lazy(() => import("./pages/Approval"));
 const Settings = lazy(() => import("./pages/Settings"));
 const Support = lazy(() => import("./pages/Support"));
@@ -25,7 +25,7 @@ function App() {
           <Route path="/" element={<Layout />}>
             <Route index element={<Home />} />
             <Route path="expenses" element={<Expenses />} />
-            <Route path="users" element={<Users />} />
+            <Route path="users" element={<UsersPage />} />
             <Route path="approval" element={<Approval />} />
             <Route path="settings" element={<Settings />} />
             <Route path="support" element={<Support />} />

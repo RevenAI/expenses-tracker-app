@@ -1,9 +1,9 @@
 
-const getEnvUrl = () => {
-    return import.meta.env.MODE === "production"
+const API_URI =
+     import.meta.env.MODE === "production"
         ? import.meta.env.VITE_API_PROD_URL
         : import.meta.env.VITE_API_DEV_URL;
-};
+
 
 const getExpenseStats = (data) => {
     if (!Array.isArray(data)) {
@@ -56,13 +56,13 @@ const getInitials = (name) => {
     if (!name) return "??"; 
     const nameParts = name.split(" ");
     return nameParts
-        .slice(0, 2) // Take first two words
-        .map((part) => part.charAt(0).toUpperCase()) // Get first letter and capitalize
-        .join(""); // Join initials
+        .slice(0, 2)
+        .map((part) => part.charAt(0).toUpperCase())
+        .join(""); 
 };
 
 export { 
-    getEnvUrl,
+    API_URI,
     getExpenseStats,
     getInitials,
  };

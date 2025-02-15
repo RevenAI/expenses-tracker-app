@@ -10,7 +10,7 @@ import Error from "../utils/Error";
 
 const Users = () => {
     const { data: usersData, loading: isLoading, error } = useFetch(`${API_URI}users/show`);
-
+    
     const [searchQuery, setSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1); 
     const itemsPerPage = 7;
@@ -40,26 +40,32 @@ const Users = () => {
 
     return (
         <Flex 
-        direction="column" 
-        w="100%"
-        p="9"
-        pl={{lg: "13.9em", xl: "14.3em"}} 
-        bg="gray.100" 
-        borderRadius="lg" 
-        boxShadow="md"
+            direction="column" 
+            justifyContent="center"
+            alignItems="center"
+            w="100%"
+            p={{ base: "4", md: "6", lg: "9" }}
+            pl={{ base: "4", md: "8", lg: "13.9em", xl: "14.3em" }}
+            bg="gray.100" 
+            borderRadius="lg" 
+            boxShadow="md"
         >
             <Flex justify="space-between" align="center" mb={4}>
-                <Heading as="h1" size="sm" color="blue.800">Users</Heading>
+                <Heading as="h1" size="md" color="blue.800">Users</Heading>
             </Flex>
 
             {/* Search Input */}
-            <Flex mb={4} align="center" gap={2}>
+            <Flex mb={4} align="center" gap={2} flexWrap="wrap" direction={{ base: "column", md: "row" }}>
                 <Input
+                    flex="1"
                     placeholder="Search users by name or email"
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
+                    size={{ base: "sm", md: "md" }}
                 />
-                <IconButton aria-label="Search" > <IoSearchSharp /> </IconButton>
+                <IconButton aria-label="Search" size={{ base: "sm", md: "md" }}>
+                    <IoSearchSharp />
+                </IconButton>
             </Flex>
 
             <Separator mb={4} />
@@ -68,7 +74,7 @@ const Users = () => {
                 {paginatedUsers.length === 0 ? (
                     <Text color="gray.500" textAlign="center">No users found.</Text>
                 ) : (
-                    <Grid templateColumns="2fr 2fr 2fr 1fr" gap={4} fontSize="sm" fontWeight="bold" color="blue.800">
+                    <Grid templateColumns={{ base: "1fr", md: "2fr 2fr 2fr 1fr" }} gap={4} fontSize="sm" fontWeight="bold" color="blue.800">
                         <GridItem>PROFILE</GridItem>
                         <GridItem>EMAIL</GridItem>
                         <GridItem>COMPANY & ROLE</GridItem>
@@ -77,10 +83,10 @@ const Users = () => {
                 )}
                 <Separator my={2} />
                 {paginatedUsers.map((user) => (
-                    <Grid key={user.email} templateColumns="2fr 2fr 2fr 1fr" gap={4} alignItems="center" p={2} borderBottom="1px solid" borderColor="gray.200" fontSize="xm">
+                    <Grid key={user.email} templateColumns={{ base: "1fr", md: "2fr 2fr 2fr 1fr" }} gap={4} alignItems="center" p={2} borderBottom="1px solid" borderColor="gray.200">
                         <GridItem>
                             <HStack>
-                                  {/* Avatar with generated initials */}
+                                {/* Avatar with generated initials */}
                                 <Avatar.Root bg="blue.800" color="white">
                                     {getInitials(user.name)}
                                     <Avatar.Image boxSize="1.25em" bg="green.500" /> {/* Online status */}
@@ -98,18 +104,19 @@ const Users = () => {
                 ))}
             </Card.Root>
 
-            <HStack justify="center" spacing={4} mt={4}>
-                <Button onClick={goToPrevPage} isDisabled={currentPage === 1} variant="outline"
-                        p="2"
-                        w="10em">Previous</Button>
-                <Text fontSize="md">Page {currentPage} of {totalPages}</Text>
-                <Button onClick={goToNextPage} isDisabled={currentPage === totalPages} variant="outline"
-                        p="2"
-                        w="10em">Next</Button>
+            <HStack justify="center" spacing={2} mt={4} flexWrap="wrap">
+                <Button onClick={goToPrevPage} isDisabled={currentPage === 1} variant="outline" size={{ base: "sm", md: "md" }} w={{ base: "8em", md: "10em" }}>
+                    Previous
+                </Button>
+                <Text fontSize={{ base: "sm", md: "md" }}>Page {currentPage} of {totalPages}</Text>
+                <Button onClick={goToNextPage} isDisabled={currentPage === totalPages} variant="outline" size={{ base: "sm", md: "md" }} w={{ base: "8em", md: "10em" }}>
+                    Next
+                </Button>
             </HStack>
         </Flex>
     );
 };
 
 export default Users;
+
 

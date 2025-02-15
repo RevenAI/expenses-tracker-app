@@ -19,12 +19,12 @@ const Sidebar = () => {
     <Flex
         hideBelow="md"
         pos="fixed"
-        h="100vh"
+        h="78.7%"
         w={ navSize === "small" ? "4.7em" : "12.5em" }
         flexDir="column"
         justifyContent="space-between"
         bg="gold"
-        zIndex="4000"
+        zIndex="1000"
     >
 
     <Flex

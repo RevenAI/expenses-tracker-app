@@ -13,14 +13,14 @@ const Footer = () => {
       right="0"
       bgColor="#FFD700"
       w="100%"
-      minH="50px"
+      h="8%"
       zIndex="1000"
       boxShadow="0px -4px 10px rgba(0,0,0,0.1)"
       alignItems="center"
       justifyContent="center"
       px="20px"
     >
-      <Text fontSize={ {lg: "1.4em", xl: "sm"}} fontWeight="bold" color="blue.800" textAlign="center">
+      <Text fontSize={ {lg: "sm", xl: "sm"}} fontWeight="bold" color="blue.800" textAlign="center">
         © {today.getFullYear()} Tijani IA. All Rights Reserved. || Powered by InternPulse
       </Text>
     </Flex>

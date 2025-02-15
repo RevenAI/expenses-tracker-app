@@ -1,10 +1,10 @@
 import { 
     Flex, Heading, IconButton, Icon, Separator, Card, Grid, GridItem, List, Text, Field, Input, Button, HStack,
 } from "@chakra-ui/react";
-import { IoFilter, IoSearchSharp, IoLocationOutline } from "react-icons/io5";
+import { IoFilter, IoLocationOutline } from "react-icons/io5";
 import { MdMoreHoriz } from "react-icons/md";
 import useFetch from "../../hooks/useFetch";
-import { getEnvUrl } from "../../utils/helpers";
+import { API_URI } from "../../utils/helpers";
 import Loader from "../../utils/Loader";
 import Error from "../../utils/Error";
 import { FaRegObjectGroup } from "react-icons/fa";
@@ -12,12 +12,10 @@ import { MdDescription } from "react-icons/md";
 import { BsCalendar2Date } from "react-icons/bs";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import CreateExpenseDialog from "./CreateExpenseDialog";
 
 const SectionOne = () => {
-    const apiUrl = getEnvUrl();
-    const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch(`${apiUrl}expenses/show`);
-    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${apiUrl}users/show`);
+    const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch(`${API_URI}expenses/show`);
+    const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${API_URI}users/show`);
 
     const [searchQuery, setSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1); 

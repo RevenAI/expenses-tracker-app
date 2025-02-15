@@ -1,13 +1,13 @@
 import { Box, Flex, Text, Card, Separator } from "@chakra-ui/react";
-import { getEnvUrl, getExpenseStats } from "../../utils/helpers";
+import { API_URI, getExpenseStats } from "../../utils/helpers";
 import Loader from "../../utils/Loader";
 import LineChart from "./charts/LineChart";
 import BarChart from "./charts/BarChart";
 import useFetch from "../../hooks/useFetch";
 
 const SectionThree = () => {
-    const apiUrl = getEnvUrl();
-    const { data, loading, error } = useFetch(`${apiUrl}expenses/show`);
+   
+    const { data, loading, error } = useFetch(`${API_URI}expenses/show`);
 
     if (loading) {
         return <Loader />;
