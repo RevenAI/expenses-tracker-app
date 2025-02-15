@@ -14,9 +14,10 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SectionOne = () => {
+
     const { data: expensesData, loading: isExpenseLoading, error: expenseErr  } = useFetch(`${API_URI}expenses/show`);
     const { data: usersData, loading: isUserLoading, error: usersErr } = useFetch(`${API_URI}users/show`);
-
+    
     const [searchQuery, setSearchQuery] = useState("");
     const [currentPage, setCurrentPage] = useState(1); 
     const itemsPerPage = 5;

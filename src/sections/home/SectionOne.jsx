@@ -11,6 +11,7 @@ import { API_URI, getExpenseStats } from "../../utils/helpers";
 import Loader from "../../utils/Loader";
 
 const SectionOne = () => {
+
   const { data, loading, error } = useFetch(`${API_URI}expenses/show`);
 
   if (loading) {
